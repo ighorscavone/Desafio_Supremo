@@ -5,9 +5,14 @@
  */
 package Business.Acesso;
 
+import br.com.business.ec6.crud.basis.FabricaRepositorio;
+import br.com.comuns.crud.ec6.enums.EntidadesDisponiveis;
+import br.com.comuns.crud.ec6.vos.acesso.Usuario;
+import br.com.dao.ec6.crud.repositorio.basis.Repositorio;
+
 /**
  *
- * @author 082170011
+ * @author gabriell
  */
 public class Acesso {
     
@@ -25,5 +30,4 @@ public class Acesso {
         }
         return retorno;
     }
-    
 }
