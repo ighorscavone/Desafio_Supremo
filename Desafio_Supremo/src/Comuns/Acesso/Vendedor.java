@@ -3,15 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Enums;
+package Comuns.Acesso;
 
 /**
  *
- * @author 082170011
+ * @author gabriell
  */
-public enum TipoRepositorio {
-    
-    
-    
+public class Vendedor  extends Usuario {
     
 }
