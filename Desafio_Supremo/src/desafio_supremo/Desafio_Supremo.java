@@ -4,6 +4,11 @@
  * and open the template in the editor.
  */
 package desafio_supremo;
+import Console.EstadoConsole.EnumEstadoConsole;
+import Console.EstadoConsole.EstadoConsoleBemVindo;
+import Console.EstadoConsole.EstadoConsoleLogin;
+import Console.EstadoConsole.EstadoConsoleMenuPrincipal;
+import Console.EstadoConsole.MaquinaEstadoConsole;
 
 /**
  *
@@ -11,12 +16,17 @@ package desafio_supremo;
  * @author 081180041
  */
 public class Desafio_Supremo {
-
+    public static MaquinaEstadoConsole estadoConsole;
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        estadoConsole = EnumEstadoConsole.BEM_VINDO.getEstadoMaquina();
+        boolean sair = false;
+        
+        while(!sair){
+            sair = estadoConsole.Executa();
+        }
         
     }
     

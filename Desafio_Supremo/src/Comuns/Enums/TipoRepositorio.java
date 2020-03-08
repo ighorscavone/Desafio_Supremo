@@ -12,7 +12,19 @@ package Comuns.Enums;
  */
 public enum TipoRepositorio {
     
-    
+    TEXTO("texto"),
+
+    MYSQL("MySQL");
+ 
+    private String descricao;
+ 
+    TipoRepositorio(String descricao) {
+        this.descricao = descricao;
+    }
+ 
+    public String getDescricao() {
+        return descricao;
+    }
     
     
 }

@@ -22,6 +22,7 @@ public class Usuario extends Entidade {
     @CampoNoBanco(nome = "login", chave = true)
     private String login;
 
+    private int tipoLogin;
     /**
      * @return the senha
      */
@@ -44,4 +45,11 @@ public class Usuario extends Entidade {
         this.login = login;
     }
     
+    public int getTipoLogin(){
+        return tipoLogin;
+    }
+    
+    public void setTipoLogin(int tipoLogin){
+        this.tipoLogin = tipoLogin;
+    }
 }

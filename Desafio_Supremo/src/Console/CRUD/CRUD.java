@@ -23,7 +23,7 @@ public class CRUD {
      */
     public static void main(String[] args) {
         Config.getInstance().setDatabase(TipoRepositorio.MYSQL);
-        estadoConsole = EnumEstadoConsole.BEM_VINDO.getEstadoMaquina();;
+        estadoConsole = EnumEstadoConsole.BEM_VINDO.getEstadoMaquina();
         Boolean saida = false;
         while (!saida){
             saida = estadoConsole.Executa();

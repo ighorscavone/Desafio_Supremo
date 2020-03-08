@@ -5,8 +5,10 @@
  */
 package Console.EstadoConsole;
 
-import CRUD.CRUD;
+import Console.CRUD.CRUD;
 import java.util.Scanner;
+import desafio_supremo.Desafio_Supremo;
+
 
 /**
  *
@@ -21,6 +23,7 @@ public class EstadoConsoleBemVindo extends MaquinaEstadoConsole{
         System.out.println("Indique a opção desejada!");
         System.out.println("0 - Sair");
         System.out.println("1 - Login");
+        System.out.println("2 - Cadastrar Usuário");
         Scanner scan = new Scanner(System.in);
         int opcao = scan.nextInt();
         switch (opcao)
@@ -29,8 +32,12 @@ public class EstadoConsoleBemVindo extends MaquinaEstadoConsole{
                 sair = true;
                 break;
             case 1:
-                CRUD.estadoConsole = EnumEstadoConsole.LOGIN.getEstadoMaquina();
+                Desafio_Supremo.estadoConsole = EnumEstadoConsole.LOGIN.getEstadoMaquina();
                 break;
+            case 2:
+                Desafio_Supremo.estadoConsole = EnumEstadoConsole.CADASTRO.getEstadoMaquina();
+                break;
+              
         }
         return sair;
     }

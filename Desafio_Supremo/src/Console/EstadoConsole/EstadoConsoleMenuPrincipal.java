@@ -5,7 +5,7 @@
  */
 package Console.EstadoConsole;
 
-import CRUD.CRUD;
+import Console.CRUD.CRUD;
 import java.util.Scanner;
 
 /**

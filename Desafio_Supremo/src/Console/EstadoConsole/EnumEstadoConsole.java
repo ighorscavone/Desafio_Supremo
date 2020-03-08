@@ -15,7 +15,9 @@ public enum EnumEstadoConsole {
     
     LOGIN(new EstadoConsoleLogin()),
     
-    MENU_PRINCIPAL (new EstadoConsoleMenuPrincipal());
+    MENU_PRINCIPAL (new EstadoConsoleMenuPrincipal()),
+    
+    CADASTRO (new EstadoConsoleCadastro());
  
     private final MaquinaEstadoConsole estadoMaquina;
     

@@ -7,7 +7,7 @@ package Business.Basis;
 
 import Business.Config.Config;
 import Comuns.Enums.TipoRepositorio;
-import DAO.Repositiorio.MYSQL.RepositorioMySQL;
+import DAO.Repositorio.MySQL.RepositorioMySQL;
 import DAO.Repositorio.Arquivo.RepositorioArquivos;
 import DAO.Repositorio.Basis.Repositorio;
 

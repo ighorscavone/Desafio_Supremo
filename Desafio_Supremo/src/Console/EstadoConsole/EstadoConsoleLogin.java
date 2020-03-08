@@ -6,8 +6,8 @@
 package Console.EstadoConsole;
 
 import Business.Acesso.Acesso;
-import Acesso.Usuario; // AQUI TINHA UM .VOS ANTES DO ".CONTEUDO", SE DER ALGUMA COISA PODE SER ISSO
-import CRUD.CRUD;
+import Comuns.Acesso.Usuario; // AQUI TINHA UM .VOS ANTES DO ".CONTEUDO", SE DER ALGUMA COISA PODE SER ISSO
+import Console.CRUD.CRUD;
 import java.util.Scanner;
 
 /**
