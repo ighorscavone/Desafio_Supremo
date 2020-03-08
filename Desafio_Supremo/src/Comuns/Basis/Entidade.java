@@ -8,6 +8,7 @@ package Comuns.Basis;
 /**
  *
  * @author 082170011
+ * @author 081180041
  */
 public class Entidade {
     

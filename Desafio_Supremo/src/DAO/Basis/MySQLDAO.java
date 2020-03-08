@@ -5,8 +5,8 @@
  */
 package DAO.Basis;
 
-import br.com.comuns.ec6.annotations.CampoNoBanco;
-import br.com.comuns.ec6.crud.basis.Entidade;
+import Comuns.Annotations.CampoNoBanco;
+import Comuns.Basis.Entidade;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.sql.Connection;

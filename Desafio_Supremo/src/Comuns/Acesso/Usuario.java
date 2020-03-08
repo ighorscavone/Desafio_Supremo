@@ -5,8 +5,8 @@
  */
 package Comuns.Acesso;
 
-import br.com.comuns.ec6.annotations.CampoNoBanco;
-import br.com.comuns.ec6.crud.basis.Entidade;
+import Comuns.Annotations.CampoNoBanco;
+import Comuns.Basis.Entidade;
 
 /**
  *

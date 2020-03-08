@@ -5,12 +5,12 @@
  */
 package DAO.Repositorio.MySQL;
 
-import br.com.comuns.crud.ec6.enums.EntidadesDisponiveis;
-import br.com.comuns.crud.ec6.enums.TipoRepositorio;
-import br.com.comuns.ec6.crud.basis.Entidade;
-import br.com.dao.ec6.crud.basis.DAO;
-import br.com.dao.ec6.crud.basis.FabricaDAOs;
-import br.com.dao.ec6.crud.repositorio.basis.Repositorio;
+import Comuns.Enums.EntidadesDisponiveis;
+import Comuns.Enums.TipoRepositorio;
+import Comuns.Basis.Entidade;
+import DAO.Basis.DAO;
+import DAO.Basis.FabricaDAOs;
+import DAO.Repositorio.Basis.Repositorio;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;

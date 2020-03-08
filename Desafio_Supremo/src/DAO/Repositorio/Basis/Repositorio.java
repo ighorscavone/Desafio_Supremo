@@ -4,8 +4,8 @@
  * and open the template in the editor.
  */
 package DAO.Repositorio.Basis;
-import br.com.comuns.crud.ec6.enums.EntidadesDisponiveis;
-import br.com.comuns.ec6.crud.basis.Entidade;
+import Comuns.Enums.EntidadesDisponiveis;
+import Comuns.Basis.Entidade;
 
 /**
  *

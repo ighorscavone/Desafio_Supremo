@@ -5,7 +5,7 @@
  */
 package Comuns.Conteudo;
 
-import br.com.comuns.ec6.crud.basis.Entidade;
+import Comuns.Basis.Entidade;
 
 /**
  *

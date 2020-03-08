@@ -5,11 +5,11 @@
  */
 package Business.Basis;
 
-import br.com.business.ec6.crud.config.Config;
-import br.com.comuns.crud.ec6.enums.TipoRepositorio;
-import br.com.dao.ec6.crud.repositiorio.mysql.RepositorioMySQL;
-import br.com.dao.ec6.crud.repositorio.arquivo.RepositorioArquivos;
-import br.com.dao.ec6.crud.repositorio.basis.Repositorio;
+import Business.Config.Config;
+import Comuns.Enums.TipoRepositorio;
+import DAO.Repositiorio.MYSQL.RepositorioMySQL;
+import DAO.Repositorio.Arquivo.RepositorioArquivos;
+import DAO.Repositorio.Basis.Repositorio;
 
 
 /**

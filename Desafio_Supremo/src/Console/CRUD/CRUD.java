@@ -5,10 +5,10 @@
  */
 package Console.CRUD;
 
-import br.com.business.ec6.crud.config.Config;
-import br.com.comuns.crud.ec6.enums.TipoRepositorio;
-import br.com.ec6.crud.estadoConsole.EnumEstadoConsole;
-import br.com.ec6.crud.estadoConsole.MaquinaEstadoConsole;
+import Business.Config.Config;
+import Comuns.Enums.TipoRepositorio;
+import Console.EstadoConsole.EnumEstadoConsole;
+import Console.EstadoConsole.MaquinaEstadoConsole;
 
 
 /**

@@ -5,9 +5,9 @@
  */
 package Console.EstadoConsole;
 
-import br.com.business.ec6.crud.acesso.Acesso;
-import br.com.comuns.crud.ec6.vos.acesso.Usuario;
-import br.com.ec6.crud.CRUD;
+import Business.Acesso.Acesso;
+import Acesso.Usuario; // AQUI TINHA UM .VOS ANTES DO ".CONTEUDO", SE DER ALGUMA COISA PODE SER ISSO
+import CRUD.CRUD;
 import java.util.Scanner;
 
 /**

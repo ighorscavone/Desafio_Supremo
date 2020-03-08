@@ -5,11 +5,11 @@
  */
 package DAO.Basis;
 
-import br.com.comuns.crud.ec6.enums.EntidadesDisponiveis;
-import br.com.comuns.crud.ec6.enums.TipoRepositorio;
-import br.com.comuns.crud.ec6.vos.acesso.Usuario;
-import br.com.dao.ec6.crud.acesso.UsuarioMySQLDAO;
-import br.com.dao.ec6.crud.acesso.UsuarioTextoDAO;
+import Comuns.Enums.EntidadesDisponiveis;
+import Comuns.Enums.TipoRepositorio;
+import Comuns.Acesso.Usuario; // AQUI TINHA UM .VOS ANTES DO ".CONTEUDO", SE DER ALGUMA COISA PODE SER ISSO
+import DAO.Acesso.UsuarioMySQLDAO;
+import DAO.Acesso.UsuarioTextoDAO;
 
 /**
  *

@@ -5,9 +5,9 @@
  */
 package DAO.Acesso;
 
-import br.com.comuns.crud.ec6.vos.acesso.Usuario;
-import br.com.comuns.ec6.crud.basis.Entidade;
-import br.com.dao.ec6.crud.basis.MySQLDAO;
+import Comuns.Acesso.Usuario; // AQUI TINHA UM .VOS ANTES DO ".CONTEUDO", SE DER ALGUMA COISA PODE SER ISSO
+import Comuns.Basis.Entidade;
+import DAO.Basis.MySQLDAO;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.logging.Level;

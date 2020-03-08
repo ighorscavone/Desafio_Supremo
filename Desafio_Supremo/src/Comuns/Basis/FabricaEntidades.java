@@ -5,9 +5,9 @@ w/*
  */
 package Comuns.Basis;
 
-import br.com.comuns.crud.ec6.enums.EntidadesDisponiveis;
-import br.com.comuns.crud.ec6.vos.acesso.Usuario;
-import br.com.comuns.crud.ec6.vos.conteudo.Pedido;
+import Comuns.Enums.EntidadesDisponiveis;
+import Comuns.Acesso.Usuario; // AQUI TINHA UM .VOS ANTES DO ".CONTEUDO", SE DER ALGUMA COISA PODE SER ISSO
+import Comuns.Conteudo.Pedido; // AQUI TINHA UM .VOS ANTES DO ".CONTEUDO", SE DER ALGUMA COISA PODE SER ISSO
 
 /**
  *

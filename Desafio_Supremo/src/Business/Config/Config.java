@@ -5,7 +5,7 @@
  */
 package Business.Config;
 
-import br.com.comuns.crud.ec6.enums.TipoRepositorio;
+import Comuns.Enums.TipoRepositorio;
 
 /**
  *

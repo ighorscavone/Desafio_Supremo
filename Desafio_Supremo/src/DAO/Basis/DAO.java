@@ -5,7 +5,7 @@
  */
 package DAO.Basis;
 
-import br.com.comuns.ec6.crud.basis.Entidade;
+import Comuns.Basis.Entidade;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
