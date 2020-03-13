@@ -7,7 +7,7 @@ package Console.EstadoConsole;
 
 import Business.Acesso.Acesso;
 import Comuns.Acesso.Usuario; // AQUI TINHA UM .VOS ANTES DO ".CONTEUDO", SE DER ALGUMA COISA PODE SER ISSO
-import Console.CRUD.CRUD;
+import desafio_supremo.Desafio_Supremo;
 import java.util.Scanner;
 
 /**
@@ -28,9 +28,10 @@ public class EstadoConsoleLogin extends MaquinaEstadoConsole {
         user.setSenha(scan.nextLine());
         // TODO - Validação de senha
         Acesso acesso = new Acesso();
-        boolean senhaValida = acesso.validaUsuario(user);
-        if (senhaValida)
-            CRUD.estadoConsole = EnumEstadoConsole.MENU_PRINCIPAL.getEstadoMaquina();
+        boolean usuarioValido = acesso.validaUsuario(user.getLogin());
+        boolean senhaValida = acesso.validaSenha(user.getSenha());
+        if (senhaValida && usuarioValido)
+            Desafio_Supremo.estadoConsole = EnumEstadoConsole.MENU_PRINCIPAL.getEstadoMaquina();
         else {
             System.out.println("Dados inválidos!");
         }            

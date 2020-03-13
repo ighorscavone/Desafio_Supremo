@@ -7,21 +7,11 @@ package Business.Basis;
 
 import Business.Config.Config;
 import Comuns.Enums.TipoRepositorio;
-import DAO.Repositorio.MySQL.RepositorioMySQL;
-import DAO.Repositorio.Arquivo.RepositorioArquivos;
-import DAO.Repositorio.Basis.Repositorio;
-
 
 /**
  *
  * @author gabriell
  */
 public class  FabricaRepositorio {
-
-    public static Repositorio Fabrica() {
-        if (Config.getInstance().getTipoRepositorio() == TipoRepositorio.MYSQL)
-            return new RepositorioMySQL();
-        else
-            return new RepositorioArquivos();
-    }
+    
 }

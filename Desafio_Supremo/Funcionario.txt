@@ -1,1 +1,3 @@
-teste|teste|0|
+teste|teste|1|
+ronlado|123|2
+oi|123|2
